@@ -1,0 +1,17 @@
+{
+  "name": "xiaoyangguang/tracer",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "~7.2",
+    "ext-json": "*",
+    "openzipkin/zipkin": "2.0.2",
+    "xiaoyangguang/aop": "*",
+    "workerman/webman-framework": "^1.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xiaoyangguang\\Tracer\\": "src"
+    }
+  }
+}
