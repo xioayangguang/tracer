@@ -6,9 +6,9 @@
 
 namespace Xiaoyangguang\Tracer\Core;
 
-use Webman\MiddlewareInterface;
-use Webman\Http\Response;
 use Webman\Http\Request;
+use Webman\Http\Response;
+use Webman\MiddlewareInterface;
 use Xiaoyangguang\Tracer\SpanManage;
 use Zipkin\Span;
 
